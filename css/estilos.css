@@ -1,0 +1,33 @@
+/*--HEDEAR--*/
+.navbar{
+	margin-bottom: 0;
+}
+/*--JUMBOTRON--*/
+.jumbotron{
+	
+    background-color: rgba(0, 130, 211, 0.4);
+    background: rgba(0, 130, 211, 0.4);
+    color: rgba(0, 130, 211, 0.4);
+
+	color:   #000000;
+}
+.contacto a{
+	font-size: 15px;
+}
+/*--LOGO--*/
+.img-header{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 5px solid #fff;	
+}
+.carousel-inner h4{
+	text-align: center;
+}
+section{
+	border-bottom: 1px solid #999;
+}
+/*media Querie para dispositvos moviles*/
+@media screen and (max-width: 768px){
+	
+}
