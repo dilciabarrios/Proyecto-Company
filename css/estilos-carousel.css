@@ -1,0 +1,31 @@
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+
+.span12 .well{
+	background: #045FB4;
+
+}
+.color-c{
+	color: #fff;
+}
+ 
+.color-c a{
+	color: #fff;
+}
+.carousel {
+    margin-bottom: 0;
+
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+	background: #333333;
+} 
