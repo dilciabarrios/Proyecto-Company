@@ -1,5 +1,18 @@
 /* Footer styles
 -------------------------------------------------- */
+footer {
+
+background: rgba(0,124,158,1);
+background: -moz-linear-gradient(left, rgba(0,124,158,1) 0%, rgba(0,124,158,0.85) 24%, rgba(0,108,143,0.58) 69%, rgba(0,97,133,0.58) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,124,158,1)), color-stop(24%, rgba(0,124,158,0.85)), color-stop(69%, rgba(0,108,143,0.58)), color-stop(100%, rgba(0,97,133,0.58)));
+background: -webkit-linear-gradient(left, rgba(0,124,158,1) 0%, rgba(0,124,158,0.85) 24%, rgba(0,108,143,0.58) 69%, rgba(0,97,133,0.58) 100%);
+background: -o-linear-gradient(left, rgba(0,124,158,1) 0%, rgba(0,124,158,0.85) 24%, rgba(0,108,143,0.58) 69%, rgba(0,97,133,0.58) 100%);
+background: -ms-linear-gradient(left, rgba(0,124,158,1) 0%, rgba(0,124,158,0.85) 24%, rgba(0,108,143,0.58) 69%, rgba(0,97,133,0.58) 100%);
+background: linear-gradient(to right, rgba(0,124,158,1) 0%, rgba(0,124,158,0.85) 24%, rgba(0,108,143,0.58) 69%, rgba(0,97,133,0.58) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c9e', endColorstr='#006185', GradientType=1 );
+
+
+}
 footer hr{
   border-bottom: 1px solid #999;
 
