@@ -59,8 +59,6 @@
 							<p><a href="" title="Contact me!"><i class="fa fa-envelope"></i> Contact</a></p>
 			           </div><!--CULMINA DIV DE CONTACTO-->
 
-			           		
-					
 						<div class="follow col-lg-3 col-md-6">
 							<h3>Follow:</h3>
 							<a href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
@@ -71,7 +69,7 @@
 							<i class="fa fa-github fa-stack-1x"></i></span>GitHub</a>
 
 						</div><!--CULMINA DIV DE FOLLOW-->
-						
+
 			</div><!--CULMINA DIV DE ROW-->
        </div><!--CULMINA DIV DE CONTAINER-->
 

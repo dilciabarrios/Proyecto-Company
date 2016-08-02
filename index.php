@@ -10,21 +10,44 @@
 <body>
 
 	<? include('header.php'); ?>
-	<br>
-    <!-- Page Heading/Breadcrumbs -->
-	<div class="container">
-		<div class="categoria-bread">
-			<div class="row">
-		        <div class="col-lg-12">
-		            <ol class="breadcrumb">
-		                <li><a href="index.php">Home/</a></li>
-		        
-		            </ol>
-		        </div>
-		    </div>
-		</div>
-	</div>
 
+	<div class="navbar-wrapper"> 
+	    <div class="container-fluid">
+	        <nav class="navbar navbar-fixed-top">
+	            <div class="container">
+
+	                <div class="navbar-header">
+	                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    </button>
+
+	                </div><!-- CULMINA DIV DE NAVBAR-HEADER-->
+
+	                <div id="navbar" class="navbar-collapse collapse">
+	                    <ul class="nav navbar-nav">
+	                        <li class="active"><a href="index.php" class="">Home</a></li>
+	                        <li class=""><a href="index.php" class="">Quienes Somos</a></li>
+	                       	<li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
+	                            <ul class="dropdown-menu">
+	                                <li><a href="areas.php">Areas de Trabajo</a></li>
+	                                <li><a href="servicios.php">Servicios</a></li>
+	                                <li><a href="especialidades.php">Especialidades</a></li>
+	                            </ul>
+	                        </li>
+	                        <li><a href="contacto.php">Contacto</a></li>
+	                    </ul>
+	                    <ul class="nav navbar-nav pull-right">
+	                        <li class=""><a href="#"></a></li>
+	                        <li class=""><a href="#"></a></li>
+	                    </ul>
+	                </div><!-- CULMINA DIV DE NAVBAR -->
+	            </div><!-- CULMINA DIV DE CONTAINER -->
+	        </nav><!-- CULMINA NAVBAR-FIXED-TOP  -->
+	    </div><!-- CULMINA DIV CONTAINER-FLUID -->
+	</div> <!-- CULMINA DIV NAVBAR-WRAPPER  -->
 
 	<div class="container">
 	    <div class="row">
@@ -85,7 +108,7 @@
 	</div><!--CULMINA DIV CONTAINER DE SLIDESHOW-->
 	
 	<br>
-
+	<!-- Container Secciones -->
 	<section class="container">
 		<div class="container-secciones">
 			<div class="row">
@@ -290,7 +313,6 @@
 			                            
 			                    	</div><!--/row-fluid-->
 			                    </div><!--/item-->
-			                 
 			                </div><!--/carousel-inner-->
 			                 
 				            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -301,11 +323,11 @@
 				            </a>
 			                </div><!--/myCarousel-->
 			                 
-			            </div><!--/well-->   
-					</div>
-				</div>
-			</div>
-	</div><!--CULMINA DIV DE GALERIA SECTION GALERIA-->
+			            </div><!-- CULMINA DIV WELL -->   
+					</div><!-- CULMINA DIV SPAN12 -->
+				</div><!-- CULMINA DIV ROW  -->
+			</div><!-- CULMINA DIV DE CONTAINER -->
+	</div><!--CULMINA SEGUNDO SECTION GALERIA-->
 
 	
 	<br>

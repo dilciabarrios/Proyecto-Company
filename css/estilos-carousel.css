@@ -1,5 +1,8 @@
 /* Removes the default 20px margin and creates some padding space for the indicators and controls */
 
+.carousel-inner h4{
+    text-align: center;
+}
 .span12 .well{
 	background: #508CC9;
 
@@ -10,9 +13,6 @@
  
 .color-c a{
 	color: #fff;
-}
-.carousel-inner h4{
-	text-align: center;
 }
 .carousel {
     margin-bottom: 0;
