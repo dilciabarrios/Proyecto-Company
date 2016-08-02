@@ -11,6 +11,20 @@
 
 	<? include('header.php'); ?>
 	<br>
+    <!-- Page Heading/Breadcrumbs -->
+	<div class="container">
+		<div class="categoria-bread">
+			<div class="row">
+		        <div class="col-lg-12">
+		            <ol class="breadcrumb">
+		                <li><a href="index.php">Home/</a></li>
+		        
+		            </ol>
+		        </div>
+		    </div>
+		</div>
+	</div>
+
 
 	<div class="container">
 	    <div class="row">
@@ -68,9 +82,10 @@
 	            <hr class="transition-timer-carousel-progress-bar animate" />
 	        </div>
 	    </div>
-	</div>
+	</div><!--CULMINA DIV CONTAINER DE SLIDESHOW-->
 	
 	<br>
+
 	<section class="container">
 		<div class="container-secciones">
 			<div class="row">
@@ -81,7 +96,7 @@
 								<img src="img/img1.jpg" width="400px" height="200px" alt="">
 
 								<div class="caption">
-									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>About Us</h3>
+									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Home</h3>
 									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
 									<a href="#" class="btn btn-primary">Ver más</a>
 									
@@ -95,7 +110,7 @@
 								<img src="img/img5.jpg" width="400px" height="200px" alt="">
 
 								<div class="caption">
-									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Projects</h3>
+									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Quienes Somos</h3>
 									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
 									<a href="#" class="btn btn-primary">Ver más</a>
 								
@@ -109,9 +124,9 @@
 								<img src="img/img2.jpg" width="400px" height="200px" alt="">
 
 								<div class="caption">
-									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Community</h3>
+									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Areas de Trabajo</h3>
 									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="#" class="btn btn-primary">Ver más</a>
+									<a href="areas.php" class="btn btn-primary">Ver más</a>
 									
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -126,9 +141,9 @@
 								<img src="img/img1.jpg" width="400px" height="200px" alt="">
 
 								<div class="caption">
-									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Publications</h3>
+									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Servicios</h3>
 									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="#" class="btn btn-primary">Ver más</a>
+									<a href="servicios.php" class="btn btn-primary">Ver más</a>
 									
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -140,9 +155,9 @@
 								<img src="img/img5.jpg" width="400px" height="200px" alt="">
 
 								<div class="caption">
-									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Contact Us</h3>
+									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Especialidades</h3>
 									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="contacto.php" class="btn btn-primary">Ver más</a>
+									<a href="especialidades.php" class="btn btn-primary">Ver más</a>
 								
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -154,9 +169,9 @@
 								<img src="img/img2.jpg" width="400px" height="200px" alt="">
 
 								<div class="caption">
-									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Careers</h3>
+									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Contacto</h3>
 									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="#" class="btn btn-primary">Ver más</a>
+									<a href="contacto.php" class="btn btn-primary">Ver más</a>
 									
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -290,7 +305,7 @@
 					</div>
 				</div>
 			</div>
-	</div><!--CULMINA SEGUNDO SECTION GALERIA-->
+	</div><!--CULMINA DIV DE GALERIA SECTION GALERIA-->
 
 	
 	<br>
