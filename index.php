@@ -1,32 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Web-Site</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	 <!--PARA VISUALIZAR EN DISPOSITIVOS MOVILES -->
-	<? include('links.php'); ?>
-</head>
-<body>
 
 	<? include('header.php'); ?>
-	<br>
-    <!-- Page Heading/Breadcrumbs -->
-	<div class="container">
-		<div class="categoria-bread">
-			<div class="row">
-		        <div class="col-lg-12">
-		            <ol class="breadcrumb">
-		                <li><a href="index.php">Home/</a></li>
-		        
-		            </ol>
-		        </div>
-		    </div>
-		</div>
-	</div>
+	<? include('navbar.php'); ?>
+	
+			<? 
+		switch ($_GET) ['menu'] ){
 
+			case 1:
+				include("index.php");
+				break;
+
+			case 2:
+				include("mision.php");
+				break;
+			case 3:
+				include("areas.php");
+				break;
+			case 4:
+				include("servicios.php");
+				break;
+			case 5:
+				include("especialidades.php");
+				break;
+			case 6:
+				include("contacto.php");
+				break;
+			
+			
+		}
+
+	 ?>
 
 	<div class="container">
+
 	    <div class="row">
 	        <!-- The carousel -->
 	        <div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel">
@@ -86,6 +91,7 @@
 	
 	<br>
 
+	<!-- Container Secciones -->
 	<section class="container">
 		<div class="container-secciones">
 			<div class="row">
@@ -290,7 +296,6 @@
 			                            
 			                    	</div><!--/row-fluid-->
 			                    </div><!--/item-->
-			                 
 			                </div><!--/carousel-inner-->
 			                 
 				            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -301,11 +306,11 @@
 				            </a>
 			                </div><!--/myCarousel-->
 			                 
-			            </div><!--/well-->   
-					</div>
-				</div>
-			</div>
-	</div><!--CULMINA DIV DE GALERIA SECTION GALERIA-->
+			            </div><!-- CULMINA DIV WELL -->   
+					</div><!-- CULMINA DIV SPAN12 -->
+				</div><!-- CULMINA DIV ROW  -->
+			</div><!-- CULMINA DIV DE CONTAINER -->
+	</div><!--CULMINA SEGUNDO SECTION GALERIA-->
 
 	
 	<br>

@@ -1,29 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Web-Site</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	 <!--PARA VISUALIZAR EN DISPOSITIVOS MOVILES -->
-	<? include('links.php'); ?>
-</head>
-<body>
 
 	<? include('header.php'); ?>
+	<? include('navbar.php'); ?>
 
-	<!-- Page Heading/Breadcrumbs -->
-	<div class="container">
-		<div class="categoria-bread">
-			<div class="row">
-		        <div class="col-lg-12">
-		            <ol class="breadcrumb">
-		                <li><a href="index.php">Home</a></li>
-		                <li class="active">Especialidades</li>
-		            </ol>
-		        </div>
-		    </div>
-		</div>
-	</div>
+	<br>
+	
+	<? include('breadcumbs.php'); ?>
 
 	<section class="espec1">
 		<div class="container">
@@ -160,7 +141,6 @@
 
 
 	<br>
-
 
 
 	<? include('footer.php'); ?>

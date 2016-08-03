@@ -1,32 +1,32 @@
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.navbar{
-	margin-bottom: 0;
-}
-
-/*--JUMBOTRON--*/
-.jumbotron{
-	
-	background: #508CC9;
-    color: rgba(0, 130, 211, 0.4);
-	color: #fff;
-}
-/*--CONTACTO DE NAVBAR--*/
-.contacto a{
-	font-size: 15px;
-}
-/*--LOGO--*/
-.img-header{
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	border: 5px solid #fff;	
+html,
+body {
+    height: 100%;
 }
 
-/*media Querie para dispositvos moviles*/
-@media screen and (max-width: 768px){
-	
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+@media(min-width:768px) {
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+    
 }
