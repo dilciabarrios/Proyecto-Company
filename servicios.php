@@ -9,12 +9,15 @@
 	            </div>
 		            <div class="col-md-4 col-sm-4">
 		                <div class="panel panel-default text-center">
-		                    <div class="panel-heading">
-		                        <span class="fa-stack fa-5x">
-		                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-		                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-		                        </span>
-		                    </div>
+							<div class="servicios">
+								<div class="panel-body">
+			                        <span class="fa-stack fa-5x">
+										<img class="img-servicios" src="img/contaminacion.png" alt="">
+			                              <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+			                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>-->
+		                        	</span>
+			                    </div>
+							</div>
 		                    <div class="panel-body">
 		                        <h4>Service One</h4>
 		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -24,11 +27,14 @@
 		            </div>
 		            <div class="col-md-4 col-sm-4">
 		                <div class="panel panel-default text-center">
-		                    <div class="panel-heading">
-		                        <span class="fa-stack fa-5x">
-		                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-		                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
-		                        </span>
+							<div class="servicios">
+								<div class="panel-body">
+			                        <span class="fa-stack fa-5x">
+										<img class="img-servicios" src="img/impacto.png" alt="">
+			                              <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+			                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>-->
+			                        </span>
+								</div>
 		                    </div>
 		                    <div class="panel-body">
 		                        <h4>Service Two</h4>
@@ -39,11 +45,14 @@
 		            </div>
 		            <div class="col-md-4 col-sm-4">
 		                <div class="panel panel-default text-center">
-		                    <div class="panel-heading">
-		                        <span class="fa-stack fa-5x">
-		                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-		                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
-		                        </span>
+							<div class="servicios">
+								<div class="panel-body">
+			                        <span class="fa-stack fa-5x">
+										<img class="img-servicios" src="img/extraccion.png" alt="">
+			                              <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+			                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>-->
+			                        </span>
+								</div>
 		                    </div>
 		                    <div class="panel-body">
 		                        <h4>Service Three</h4>
