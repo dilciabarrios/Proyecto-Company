@@ -1,10 +1,6 @@
 
-	<? include('header.php'); ?>
-	<? include('navbar.php'); ?>
 
 	<br>
-	
-	<? include('breadcumbs.php'); ?>
 	
 		<div class="container">
 			<!-- Project One -->
@@ -97,11 +93,6 @@
 		    <!-- /.row -->
 
 		</div>
-	</section>
 
 	<br>
 
-
-	<? include('footer.php'); ?>
-        
-	<? include('scripts.php'); ?>

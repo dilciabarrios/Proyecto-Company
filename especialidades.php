@@ -1,11 +1,7 @@
 
-	<? include('header.php'); ?>
-	<? include('navbar.php'); ?>
-
+	
 	<br>
 	
-	<? include('breadcumbs.php'); ?>
-
 	<section class="espec1">
 		<div class="container">
 			<div class="col-lg-12">
@@ -141,8 +137,3 @@
 
 
 	<br>
-
-
-	<? include('footer.php'); ?>
-        
-	<? include('scripts.php'); ?>

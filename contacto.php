@@ -1,9 +1,6 @@
 
-	<? include('header.php'); ?>
-	<? include('navbar.php'); ?>
+
 	<br>
-	
-	<? include('breadcumbs.php'); ?>
 	
 		<div class="container">
 			<div class="row">
@@ -66,10 +63,6 @@
 
 		</div><!--CULMINA DIV DE CONTAINER-->
 
-	</section>
 	<br>
 
 
-	<? include('footer.php'); ?>
-        
-	<? include('scripts.php'); ?>

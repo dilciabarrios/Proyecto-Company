@@ -49,6 +49,10 @@
     color: #fff;
     background: #fff;
 }
+.nav .active{
+
+    background:   #A9A9A9;
+}
 
 .nav>li>a:hover{
  

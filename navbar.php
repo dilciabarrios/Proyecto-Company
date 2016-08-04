@@ -15,27 +15,53 @@
 
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li <? if(!isset($_GET['menu']) || $_GET['menu']==1) {echo 'class="selected"';} ?>>
-                        <a href="index.php?menu=1">Home</a>
+                        <li <? if(!isset($_GET['menu'])) {echo 'class="active"';} ?>>
+                        <a href="index.php">Inicio</a>
                         </li>
-                        <li <? if(!isset($_GET['menu']) || $_GET['menu']==2) {echo 'class="selected"';} ?>>
-                        <a href="index.php?menu=2">Quienes Somos</a>
+                        <li <? if(isset($_GET['menu']) && $_GET['menu']=="quienes_somos") {echo 'class="active"';} ?>>
+                        <a href="index.php?menu=quienes_somos">Quienes Somos</a>
                         </li>
-                       	<li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
+                        <li class="<? if(isset($_GET['menu']) && $_GET['menu']=='areas_de_trabajo') {echo 'active';} ?> dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Areas de Trabajo<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li <? if(!isset($_GET['menu']) || $_GET['menu']==3) {echo 'class="selected"';} ?>>
-                                <a href="index.php?menu=3">Areas de Trabajo</a>
+                                <li>
+                                <a href="index.php?menu=areas_de_trabajo">Area de Trabajo 1</a>
                                 </li>
-                                <li <? if(!isset($_GET['menu']) || $_GET['menu']==4) {echo 'class="selected"';} ?>>
-                                <a href="index.php?menu=4">Servicios</a>
+                                <li >
+                                <a href="index.php?menu=areas_de_trabajo">Area de Trabajo 2</a>
                                 </li>
-                                <li <? if(!isset($_GET['menu']) || $_GET['menu']==5) {echo 'class="selected"';} ?>>
-                                <a href="index.php?menu=5">Especialidades</a>
+                                <li>
+                                <a href="index.php?menu=areas_de_trabajo">Area de Trabajo 3</a>
                                 </li>
                             </ul>
                         </li>
-                        <li <? if(!isset($_GET['menu']))  || $_GET['menu']==6) {echo 'class="selected"';} ?>>
-                        <a href="index.php?menu=6">Contacto</a>
+                        <li class="<? if(isset($_GET['menu']) && $_GET['menu']=='servicios') {echo 'active';} ?> dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="index.php?menu=servicios">Servicio 1</a>
+                                </li>
+                                <li >
+                                <a href="index.php?menu=servicios">Servicio 2</a>
+                                </li>
+                                <li>
+                                <a href="index.php?menu=servicios">Servicio 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="<? if(isset($_GET['menu']) && $_GET['menu']=='especialidades') {echo 'active';} ?> dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Especialidades <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                <a href="index.php?menu=especialidades">Especialidad 1</a>
+                                </li>
+                                <li>
+                                <a href="index.php?menu=especialidades">Especialidad 2</a>
+                                </li>
+                                <li>
+                                <a href="index.php?menu=especialidades">Especialidad 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li <? if(isset($_GET['menu']) && $_GET['menu']=="contacto") {echo 'class="active"';} ?>>
+                        <a href="index.php?menu=contacto">Contacto</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav pull-right">

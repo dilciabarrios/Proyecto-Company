@@ -1,10 +1,5 @@
 
-	<? include('header.php'); ?>
-	<? include('navbar.php'); ?>
-	
-	<br>
-	
-	<? include('breadcumbs.php'); ?>
+		<br>
 		
 		<div class="container">
 			<!-- Service Panels -->
@@ -95,11 +90,6 @@
 
 		</div>
 	
-	</section>
-
-	<br>
+		<br>
 
 
-	<? include('footer.php'); ?>
-        
-	<? include('scripts.php'); ?>

@@ -1,7 +1,7 @@
-<? php ?>
+<?php ?>
 
 <footer>
-<hr>
+	<hr>
        <div class="container">	
 			<div class="row">
 	            <div class="col-lg-12">
@@ -55,8 +55,9 @@
 
 			            <div class="col-lg-3 col-md-6">
 			                <h3>Contact:</h3>
-							<p>company@gmail.com</p>
+							<p>info@geoalquimia.com</p>
 							<p><a href="" title="Contact me!"><i class="fa fa-envelope"></i> Contact</a></p>
+							<p>Teléfonos:+58-414.814.08.45/ +58-412.118.70.16</p>
 			           </div><!--CULMINA DIV DE CONTACTO-->
 
 						<div class="follow col-lg-3 col-md-6">
