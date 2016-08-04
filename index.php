@@ -7,19 +7,19 @@
 
  		switch ($_GET['menu']) {
 
-		case quienes_somos:
+		case "quienes_somos":
 			include("quienes-somos.php");
 			break;
-		case areas_de_trabajo:
+		case "areas_de_trabajo":
 			include("areas.php");
 			break;
-		case servicios:
+		case "servicios":
 			include("servicios.php");
 			break;
-		case especialidades:
+		case "especialidades":
 			include("especialidades.php");
 			break;
-		case contacto:
+		case "contacto":
 			include("contacto.php");
 			break;
 		default:
