@@ -1,7 +1,8 @@
 
-		<br>
-		
 		<div class="container">
+			<div class="page-header">
+        		<h2 id="timeline"  class="text-info"><span class=" glyphicon glyphicon-menu-hamburger text-info" ></span>Nuestros Sevicios</h2>
+    		</div>
 			<!-- Service Panels -->
 			<div class="row">
 	            <div class="col-lg-12">
@@ -60,11 +61,11 @@
 	            <div class="col-lg-12">
 
 	                <ul id="myTab" class="nav nav-tabs nav-justified">
-	                    <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-tree"></i> Service One</a>
+	                    <li class="active"><a href="#service-one" data-toggle="tab"><i class="glyphicon glyphicon-asterisk"></i> Service One</a>
 	                    </li>
-	                    <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-car"></i> Service Two</a>
+	                    <li class=""><a href="#service-two" data-toggle="tab"><i class="glyphicon glyphicon-asterisk"></i> Service Two</a>
 	                    </li>
-	                    <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-support"></i> Service Three</a>
+	                    <li class=""><a href="#service-three" data-toggle="tab"><i class="glyphicon glyphicon-asterisk"></i> Service Three</a>
 	                    </li>
 	                </ul>
 

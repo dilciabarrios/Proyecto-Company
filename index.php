@@ -1,7 +1,6 @@
 
 	<? include('header.php'); ?>
 	<? include('navbar.php'); ?>
-	<? include('breadcumbs.php');?>
 
 
 	<?
@@ -9,7 +8,7 @@
  		switch ($_GET['menu']) {
 
 		case quienes_somos:
-			include("inicio.php");
+			include("quienes-somos.php");
 			break;
 		case areas_de_trabajo:
 			include("areas.php");

@@ -1,8 +1,8 @@
 
-
-	<br>
-	
 		<div class="container">
+			<div class="page-header">
+	        	<h2 id="timeline"  class="text-info"><span class="glyphicon glyphicon-envelope text-info" ></span> Envianos un correo</h2>
+	    	</div>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="container-fluid">
