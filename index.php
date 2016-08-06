@@ -2,8 +2,12 @@
 	<? include('header.php'); ?>
 	<? include('navbar.php'); ?>
 
-
 	<?
+
+	if(!isset($_GET['menu'])){
+		include ("inicio.php");
+	}
+	else { 
 
  		switch ($_GET['menu']) {
 
@@ -27,7 +31,7 @@
 			break;
 
 	   		}
-	  ?>
+	  }?>
 
 	<? include('scripts.php'); ?>
 

@@ -5,6 +5,7 @@ footer {
 background: #999;
 color: #fff;
 
+
 }
 footer hr{
   border-bottom: 1px solid #999;
@@ -22,6 +23,7 @@ footer p a {
     position: relative;
     overflow: hidden;
     height: 200px;
+  
   }
 
   .cuadro_intro_hover:hover .caption{

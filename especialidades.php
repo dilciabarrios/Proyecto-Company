@@ -2,7 +2,7 @@
 	
 	<section class="espec1">
 	    <div class="page-header">
-        	<h2 id="timeline"  class="text-info"><span class=" glyphicon glyphicon-menu-hamburger text-info" ></span>Nuestras especialidades</h2>
+        	<h2 id="timeline"  class="text-info"><span class=" " ></span>Nuestras especialidades</h2>
     	</div>
 		<div class="container">
 			<div class="col-lg-12">

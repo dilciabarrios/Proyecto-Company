@@ -1,7 +1,7 @@
 
 		<div class="container">
 			<div class="page-header">
-        		<h2 id="timeline"  class="text-info"><span class=" glyphicon glyphicon-menu-hamburger text-info" ></span>Nuestros Sevicios</h2>
+        		<h2 id="timeline"  class="text-info"><span class="" ></span>Nuestros Sevicios</h2>
     		</div>
 			<!-- Service Panels -->
 			<div class="row">

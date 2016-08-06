@@ -5,10 +5,9 @@
        <div class="container">	
 			<div class="row">
 	            <div class="col-lg-12">
-	    			<div class="col-lg-3 col-md-6">
-	                <div class="container">
+
 		
-				    	<div class="col-lg-3">
+				    	<div class="col-lg-3 col-md-3">
 							<div class="cuadro_intro_hover " style="background-color:#cccccc;">
 								<p style="text-align:center; margin-top:10px;">
 									<img src="img/construccion.jpg" class="img-responsive" alt="">
@@ -22,9 +21,9 @@
 									</div>
 								</div>
 							</div>
-							
 				    	</div>
-			       		<div class="col-lg-3">
+
+			       		<div class="col-lg-3 col-md-3">
 							<div class="cuadro_intro_hover " style="background-color:#cccccc;">
 								<p style="text-align:center; margin-top:10px;">
 									<img src="img/catastrofe.jpg" class="img-responsive" alt="">
@@ -41,8 +40,8 @@
 							
 				   		</div>
 	           
-			            <div class="col-lg-3 col-md-6">
-							<h3>Categories:</h3>
+			           <!-- <div class="col-lg-2 col-md-2">
+							<h3>Categorias:</h3>
 			                <ul>
 								<li><a href=""><i class="fa fa-file"></i> News</a></li>
 								<li><a href=""><i class="fa fa-android"></i> Android</a></li>
@@ -50,24 +49,31 @@
 								<li><a href=""><i class="fa fa-globe"></i> Web</a></li>
 								<li><a href=""><i class="fa fa-windows"></i> Windows</a></li>
 							</ul>
-			            </div><!--CULMINA DIV DE CATEGORIAS-->
+			            </div>-->
 
 
-			            <div class="col-lg-3 col-md-6">
-			                <h3>Contact:</h3>
+			            <div class="col-lg-3 col-md-3">
+			                <h3>Contacto:</h3>
+			                <p><a href="" title="Contact me!"><i class="fa fa-envelope"></i> Contacto</a></p>
 							<p>info@geoalquimia.com</p>
-							<p><a href="" title="Contact me!"><i class="fa fa-envelope"></i> Contact</a></p>
+							<p><a href="" title="Contact me!"><i class="fa fa-fax"></i> Telefonos</a></p>
 							<p>Teléfonos:+58-414.814.08.45/ +58-412.118.70.16</p>
-			           </div><!--CULMINA DIV DE CONTACTO-->
+			            </div><!--CULMINA DIV DE CONTACTO-->
 
-						<div class="follow col-lg-3 col-md-6">
+						<div class="follow col-lg-3 col-md-3">
 							<h3>Follow:</h3>
 							<a href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
-							<i class="fa fa-square-o fa-stack-2x"></i>
 							<i class="fa fa-twitter fa-stack-1x"></i></span>Twitter</a>
-							<a href=""  target="_blank" title="GitHub"><span class="fa-stack fa-lg">
+
+							<a href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
+							<i class="fa fa-facebook-official fa-stack-1x"></i></span>Facebook</a></p>
+
+							<a href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
+							<i class="fa fa-instagram fa-stack-1x"></i></span>Instagram</a>
+
+							<!--<a href="" target="_blank" title="GitHub"><span class="fa-stack fa-lg">
 							<i class="fa fa-square-o fa-stack-2x"></i>
-							<i class="fa fa-github fa-stack-1x"></i></span>GitHub</a>
+							<i class="fa fa-github fa-stack-1x"></i></span>GitHub</a>-->
 
 						</div><!--CULMINA DIV DE FOLLOW-->
 
