@@ -65,10 +65,10 @@
 							<a href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
 							<i class="fa fa-twitter fa-stack-1x"></i></span>Twitter</a>
 
-							<a href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
+							<a href="" id="gh" target="_blank" title="Facebook"><span class="fa-stack fa-lg">
 							<i class="fa fa-facebook-official fa-stack-1x"></i></span>Facebook</a></p>
 
-							<a href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
+							<a href="" id="gh" target="_blank" title="Instagram"><span class="fa-stack fa-lg">
 							<i class="fa fa-instagram fa-stack-1x"></i></span>Instagram</a>
 
 							<!--<a href="" target="_blank" title="GitHub"><span class="fa-stack fa-lg">

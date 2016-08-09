@@ -73,8 +73,8 @@
 
 								<div class="caption">
 									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Home</h3>
-									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="#" class="btn btn-primary">Ver más</a>
+									<p>Visita su web para mas informacion</p>
+                        			<a href="index.php" class="btn btn-primary">Ver más</a>
 									
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -87,8 +87,8 @@
 
 								<div class="caption">
 									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Quienes Somos</h3>
-									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="#" class="btn btn-primary">Ver más</a>
+									<p>Visita su web para mas informacion</p>
+									<a href="index.php?menu=quienes_somos" class="btn btn-primary">Ver más</a>
 								
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -101,8 +101,8 @@
 
 								<div class="caption">
 									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Areas de Trabajo</h3>
-									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="areas.php" class="btn btn-primary">Ver más</a>
+									<p>Visita su web para mas informacion</p>
+									<a href="index.php?menu=areas_de_trabajo" class="btn btn-primary">Ver más</a>
 									
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -118,8 +118,8 @@
 
 								<div class="caption">
 									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Servicios</h3>
-									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="servicios.php" class="btn btn-primary">Ver más</a>
+									<p>Visita su web para mas informacion</p>
+									<a href="index.php?menu=servicios" class="btn btn-primary">Ver más</a>
 									
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -132,8 +132,8 @@
 
 								<div class="caption">
 									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Especialidades</h3>
-									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="especialidades.php" class="btn btn-primary">Ver más</a>
+									<p>Visita su web para mas informacion</p>
+									<a href="index.php?menu=especialidades" class="btn btn-primary">Ver más</a>
 								
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
@@ -146,8 +146,8 @@
 
 								<div class="caption">
 									<h3 class="text-primary"><span class="glyphicon glyphicon-info-sign"></span>Contacto</h3>
-									<p>Esta imagen fue diseno de falcon master visita su web para mas informacion</p>
-									<a href="contacto.php" class="btn btn-primary">Ver más</a>
+									<p>Visita su web para mas informacion</p>
+									<a href="index.php?menu=contacto" class="btn btn-primary">Ver más</a>
 									
 								</div><!--CULMINA EL CAPTION-->
 							</div><!--CULMINA EL THUMBNAIL-->
